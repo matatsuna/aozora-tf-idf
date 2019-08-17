@@ -1,2 +1,13 @@
-# aozora-tf-idf-svn
- 青空文庫の作品をtf-idfにしてsvnに入れて判別
+# aozora-tf-idf
+ 青空文庫の作品（芥川竜之介、太宰治、夏目漱石、宮沢賢治）をtf-idfにし、著者名をラベルにロジスティック回帰でモデルを作り、どのぐらいの精度で著者を当てられるのかを検証
+
+# 環境
+- python 3.6
+- [Mecab](http://taku910.github.io/mecab)が動く環境
+- Mecabとpythonをつなぐモジュール(OSに依存するので割愛)
+
+# 結果
+## 87.7 %の精度で当てられる
+
+# 関連
+[夏目漱石・芥川龍之介・宮沢賢治・太宰治・江戸川乱歩の作品からTFの特徴量をSVMに入れて分類分けしてみた](https://matatsuna.hatenablog.com/entry/2017/02/01/220534)
